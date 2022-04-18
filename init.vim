@@ -1,5 +1,4 @@
 set number        " Line numbers
-set cc=80         " Column border
 set mouse=a       " Enable mouse clicking
 set expandtab     " Expand tabs into spaces
 set shiftwidth=4  " Indents will have a width of 4
