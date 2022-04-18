@@ -10,5 +10,6 @@ set tabstop=4     " Tab width
 imap jk <Esc>
 imap kj <Esc>
 
-autocmd FileType gitcommit setlocal setlocal
+autocmd FileType gitcommit setlocal spell " Enable spell check in commit messages
+autocmd FileType markdown setlocal spell " Enable spell check in markdown files
 
