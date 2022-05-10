@@ -13,8 +13,8 @@ imap kj <Esc>
 autocmd FileType gitcommit setlocal spell  " Enable spell check in commit messages
 autocmd FileType markdown setlocal spell  " Enable spell check in markdown files
 
-highlight DiffAdd ctermbg=23 ctermfg=None
-highlight DiffDelete ctermbg=95 ctermfg=None
-highlight DiffChange ctermbg=240 ctermfg=None
-highlight DiffText ctermbg=94 ctermfg=None
+highlight DiffAdd ctermbg=22 ctermfg=None
+highlight DiffDelete ctermbg=52 ctermfg=None
+highlight DiffChange ctermbg=17 ctermfg=None
+highlight DiffText ctermbg=53 ctermfg=None
 
