@@ -27,6 +27,7 @@ imap kj <Esc>
 
 autocmd FileType gitcommit setlocal spell  " Enable spell check in commit messages
 autocmd FileType markdown setlocal spell  " Enable spell check in markdown files
+autocmd FileType rst setlocal spell  " Enable spell check in restructured text files
 
 " Customise the onedark colours for diffing
 if (has("autocmd") && !has("gui_running"))
@@ -50,4 +51,12 @@ colorscheme onedark
 " highlight DiffDelete ctermbg=52 ctermfg=None
 " highlight DiffChange ctermbg=17 ctermfg=None
 " highlight DiffText ctermbg=53 ctermfg=None
+
+" Settings for RST files
+augroup RestructuredText
+    autocmd!
+    autocmd Filetype rst set wrap  " Text wrapping
+    autocmd Filetype rst nnoremap <buffer> j gj
+    autocmd Filetype rst nnoremap <buffer> k gk
+augroup END
 
